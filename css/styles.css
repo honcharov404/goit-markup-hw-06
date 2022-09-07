@@ -945,18 +945,22 @@ body {
   fill: transparent;
 }
 
-.modal-chekbox-input:cheked + .modal-chekbox-label > .modal-chekbox-icon {
+.modal-chekbox-input:checked + .modal-chekbox-label > .modal-chekbox-icon {
   background-color: var(--accent-color);
   border: none;
   fill: var(--primary-white-color);
 }
 
 .modal-chekbox-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   line-height: 1.71;
   color: var(--primary-text-color);
 }
 
 .modal-chekbox-link {
+  margin-left: 5px;
   line-height: 1.71;
   color: var(--accent-color);
   text-decoration: underline;
