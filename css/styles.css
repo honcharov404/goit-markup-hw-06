@@ -945,7 +945,7 @@ body {
   fill: transparent;
 }
 
-.modal-chekbox-input:cheked + .modal-chekbox-label .modal-chekbox-icon {
+.modal-chekbox-input:cheked + .modal-chekbox-label > .modal-chekbox-icon {
   background-color: var(--accent-color);
   border: none;
   fill: var(--primary-white-color);
